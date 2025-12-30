@@ -1,0 +1,34 @@
+# Do not comit!
+
+# Environment variables
+docker/.env
+
+# User-specific dbt config
+dbt/.user.yml
+dbt/profiles.yml
+
+# PostgreSQL data directory
+postgres/data/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+airflow/dags/__pycache__/
+api-request/__pycache__/
+
+# dbt logs
+dbt/logs/
+dbt/my_project/logs/
+
+# dbt compiled and run artifacts
+dbt/my_project/target/
+
+# virtual environment
+venv/
+
+# OS Files
+.DS_Store
+
+# logs
+*.log
