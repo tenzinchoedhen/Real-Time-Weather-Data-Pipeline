@@ -21,3 +21,7 @@ Weather API -> raw_weather_data -> stg_weather_data -> weather_report -> Superse
                                                        daily_average
                                                    
 ```
+
+## Superset Weather Report
+
+![Dashboard](images/dashboard.png)
